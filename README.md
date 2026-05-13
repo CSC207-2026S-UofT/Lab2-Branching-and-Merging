@@ -16,17 +16,20 @@ last week came from there. If you are looking for challenges, definitely check i
 
 The partial cake recipes are courtesy ChatGPT.
 
+At the bottom of the handout, you will find some hints and tips for the various tasks. We encourage you to try the problems on your own first, but if you get stuck, feel free to check out the hints and tips.
+
 # TASK 0: Fork this repo
 
-For this task, you will need to fork this repo at: https://github.com/CSC207-2025S-UofT/Lab2.
+For this task, you will need to fork this repo at: https://github.com/CSC207-2026S-UofT/Lab2-Branching-and-Merging.
 
 - [ ] Make a fork of this repo and clone a local copy (as you did in Lab 1).
-  - **Important**: make sure to uncheck the option to only fork the main branch, as the repo
+  - **Important**: make sure to **uncheck** the option to only fork the main branch, as the repo
   contains two branches you will use later in this lab.
 
 For you to think: you actually have access to clone the original repo - so why won't we just work on this local copy, why do we need to fork?
 
 # TASK 1: Your first branch
+Fixing the bug is not the main focus of this task, if you are stuck, feel free to still push your code with the bug fix and check off the item, but we encourage you to try to fix the bug on your own first. The main focus of this task is to get you familiar with branching and merging.
 
 - [ ] Create and checkout a new branch called `task_1` using either IntelliJ or the Terminal:
   - IntelliJ: `Git -> New branch...`
@@ -35,8 +38,10 @@ For you to think: you actually have access to clone the original repo - so why w
   that you are now on the `task_1` branch.
 - [ ] Open the TODO tool window (`View -> Tool Windows -> TODO`) and click on the TASK 1 TODO listed.
 - [ ] Complete the TASK 1 TODO and commit your changes to this file (checking off the
-completed items so far) and `DataTypes.java` (remove the word TODO and your bug fix).
+completed items so far) and `Polymorphism.java` (remove the word TODO and your bug fix).
   - talk to those around you or your TA, then see the hints at the bottom of the readme if you get stuck.
+  - the starter code is a simplified version of Tuesday's code demo. Think about how to use `instanceof` and casting to fix the bug in the code.
+  - writing a getter method instead of accessing the file directly can be a good practice.
 - [ ] Now, we'll merge the `task_1` branch back into `main`. When merging,
 you need to be currently on the branch you are trying to merge into, so we'll first checkout the main
 branch:
@@ -106,9 +111,8 @@ Proceed to the second lab activity on Quercus!
 ## Hints and Tips
 
 ### TASK 1 TODO: Hints
-- Hint 1: you only need to change one line of code
-- Hint 2: unlike Python, an int has a maximum value that it can store (see Integer.MAX_VALUE).
-also see https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html
+- Hint 1: For the field shadowing issue, use the getter method instead of accessing the field directly to get the correct polymorphic behavior.
+- Hint 2: For the casting issue, always use instanceof to check the actual object type before casting to avoid a runtime error.
 
 ### TASK 2 (and possibly other places): Note about Unsaved local changes
 
