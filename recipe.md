@@ -12,3 +12,4 @@
 3. Add eggs one at a time, beating well after each addition. Mix in the vanilla extract.
 4. Alternately add the dry ingredient mixture and milk to the butter mixture, beginning and ending with the dry ingredients. Mix on low speed just until combined; do not overmix.
 5. Eat it!
+6. By Min
