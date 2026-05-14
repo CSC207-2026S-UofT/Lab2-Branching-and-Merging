@@ -42,7 +42,7 @@ completed items so far) and `Polymorphism.java` (remove the word TODO and your b
   - talk to those around you or your TA, then see the hints at the bottom of the readme if you get stuck.
   - the starter code is a simplified version of Tuesday's code demo. Think about how to use `instanceof` and casting to fix the bug in the code.
   - writing a getter method instead of accessing the file directly can be a good practice.
-- [ ] Now, we'll merge the `task_1` branch back into `main`. When merging,
+- [X] Now, we'll merge the `task_1` branch back into `main`. When merging,
 you need to be currently on the branch you are trying to merge into, so we'll first checkout the main
 branch:
   - IntelliJ: `Git -> branches... -> main -> Checkout`
