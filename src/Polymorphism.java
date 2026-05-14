@@ -8,7 +8,13 @@ public class Polymorphism {
      */
     public static String getStudentRole(Person p) {
         // TODO: right now for student, it is not returning the role to be student.
-        return p.role;
+        if (p instanceof Student) {
+            // Type cast var p to type Student in new var s
+            Student s = (Student) p;
+            return s.role;
+        } else {
+            return p.role;
+        }
     }
 }
 
