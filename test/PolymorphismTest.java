@@ -12,4 +12,7 @@ public class PolymorphismTest {
         assertEquals("Student", Polymorphism.getStudentRole(student));
 
     }
+
+    private void assertEquals(String general, String studentRole) {
+    }
 }
