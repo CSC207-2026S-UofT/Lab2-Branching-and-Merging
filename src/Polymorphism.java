@@ -1,6 +1,4 @@
 public class Polymorphism {
-    // TODO TASK 1: Fix the bugs in this code to pass PolymorphismTest.java
-
     /**
      * Returns the role.
      * @param p the person whose role is to be returned
