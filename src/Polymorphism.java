@@ -1,13 +1,15 @@
 public class Polymorphism {
-    // TODO TASK 1: Fix the bugs in this code to pass PolymorphismTest.java
-
     /**
      * Returns the role.
      * @param p the person whose role is to be returned
      * @return the role of the person
      */
     public static String getStudentRole(Person p) {
-        // TODO: right now for student, it is not returning the role to be student.
+        // If is instance of student then cast to student then return the role
+        if (p instanceof Student) {
+            Student student = (Student) p;
+            return student.role;
+        }
         return p.role;
     }
 }
