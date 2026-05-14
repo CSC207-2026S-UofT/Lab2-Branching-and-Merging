@@ -8,6 +8,10 @@ public class Polymorphism {
      */
     public static String getStudentRole(Person p) {
         // TODO: right now for student, it is not returning the role to be student.
+	// Cast person to student if possible
+	if (p instanceof Student) {
+		return ((Student) p).role;
+	}
         return p.role;
     }
 }
