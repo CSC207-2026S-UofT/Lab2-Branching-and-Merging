@@ -18,4 +18,4 @@
 6. Mix in a handful of chocolate chunks for extra indulgence.
 7. Pour the batter into a greased and floured 9x13-inch baking pan.
 8. Line the bottom of the baking pan with parchment paper for easy cake removal.
-9. ...
+9. Let the cake cool for 15 minutes before slicing and serving.[edited]
