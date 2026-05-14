@@ -33,4 +33,8 @@ class Student extends Person {
         super(name);
         this.studentId = studentId;
     }
+
+    public String getStudentId() {
+        return studentId;
+    }
 }
