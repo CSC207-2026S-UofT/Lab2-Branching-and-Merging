@@ -31,13 +31,13 @@ For you to think: you actually have access to clone the original repo - so why w
 # TASK 1: Your first branch
 Fixing the bug is not the main focus of this task, if you are stuck, feel free to still push your code with the bug fix and check off the item, but we encourage you to try to fix the bug on your own first. The main focus of this task is to get you familiar with branching and merging.
 
-- [ ] Create and checkout a new branch called `task_1` using either IntelliJ or the Terminal:
+- [X] Create and checkout a new branch called `task_1` using either IntelliJ or the Terminal:
   - IntelliJ: `Git -> New branch...`
   - Terminal: `git checkout -b task_1`
   - After, you can check `git status` or the Log tab of the Git tool window in IntelliJ to see
   that you are now on the `task_1` branch.
-- [ ] Open the TODO tool window (`View -> Tool Windows -> TODO`) and click on the TASK 1 TODO listed.
-- [ ] Complete the TASK 1 TODO and commit your changes to this file (checking off the
+- [X] Open the TODO tool window (`View -> Tool Windows -> TODO`) and click on the TASK 1 TODO listed.
+- [X] Complete the TASK 1 TODO and commit your changes to this file (checking off the
 completed items so far) and `Polymorphism.java` (remove the word TODO and your bug fix).
   - talk to those around you or your TA, then see the hints at the bottom of the readme if you get stuck.
   - the starter code is a simplified version of Tuesday's code demo. Think about how to use `instanceof` and casting to fix the bug in the code.
