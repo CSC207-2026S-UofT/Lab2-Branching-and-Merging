@@ -14,7 +14,6 @@ public class Polymorphism {
         return p.role;
     }
 }
-asdasasdasdasdasdasdasd
 class Person {
     public final String role = "General";
     private final String name;
